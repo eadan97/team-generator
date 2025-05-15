@@ -1,0 +1,18 @@
+
+data_dir: ./data
+players_filename: players.json
+players_columns:
+  - Name
+  - Pace
+  - Shooting
+  - Passing
+  - Dribbling
+  - Defending
+  - Physical
+player_stats:
+  - Pace
+  - Shooting
+  - Passing
+  - Dribbling
+  - Defending
+  - Physical
