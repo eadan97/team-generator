@@ -1,6 +1,7 @@
 import streamlit as st
 
 from utils.file_management import load_players, save_players
+import pandas as pd
 
 st.title("👤 Player Manager")
 
@@ -19,6 +20,16 @@ player_table = st.data_editor(st.session_state.players, num_rows="dynamic", key=
     "Defending": st.column_config.NumberColumn("Defending", min_value=0, max_value=100, step=1),
     "Physical": st.column_config.NumberColumn("Physical", min_value=0, max_value=100, step=1),
 })
+
+if not player_table.empty:
+    stats_columns = st.session_state.config["player_stats"]
+    stats_table_df = player_table.copy()
+    stats_table_df['Total Stats'] = stats_table_df.iloc[:, 1:].sum(axis=1).astype(int)
+    stats_table_df['Average Stats'] = (stats_table_df['Total Stats'] / 6).round(2)
+    stats_table_df = stats_table_df[["Name", "Total Stats", "Average Stats"]]
+    stats_table_df = stats_table_df.sort_values("Average Stats", ascending=False).reset_index(drop=True)
+    st.subheader("Stats Leaderboard")
+    st.table(stats_table_df.set_index("Name"))
 
 if st.button("Save Changes"):
     player_table["Name"] = player_table["Name"].str.strip()

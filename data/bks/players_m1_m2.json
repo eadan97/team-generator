@@ -1,48 +1,48 @@
 [
   {
     "Name":"Adan",
-    "Pace":68.0,
-    "Shooting":38.0,
-    "Passing":54.0,
+    "Pace":67.0,
+    "Shooting":30.0,
+    "Passing":60.0,
     "Dribbling":41.0,
-    "Defending":73.0,
-    "Physical":72.0
+    "Defending":72.0,
+    "Physical":73.0
   },
   {
     "Name":"Andrey",
-    "Pace":70.0,
+    "Pace":69.0,
     "Shooting":81.0,
-    "Passing":58.0,
+    "Passing":57.0,
     "Dribbling":65.0,
-    "Defending":57.0,
-    "Physical":70.0
+    "Defending":52.0,
+    "Physical":69.0
   },
   {
     "Name":"Artavia",
-    "Pace":71.0,
-    "Shooting":88.0,
-    "Passing":60.0,
-    "Dribbling":80.0,
+    "Pace":70.0,
+    "Shooting":86.0,
+    "Passing":56.0,
+    "Dribbling":79.0,
     "Defending":40.0,
-    "Physical":77.0
+    "Physical":74.0
   },
   {
     "Name":"Birrita",
-    "Pace":66.0,
-    "Shooting":71.0,
-    "Passing":54.0,
-    "Dribbling":62.0,
-    "Defending":70.0,
-    "Physical":66.0
+    "Pace":65.0,
+    "Shooting":70.0,
+    "Passing":53.0,
+    "Dribbling":61.0,
+    "Defending":68.0,
+    "Physical":65.0
   },
   {
     "Name":"Bryan",
-    "Pace":73.0,
-    "Shooting":70.0,
+    "Pace":75.0,
+    "Shooting":69.0,
     "Passing":64.0,
     "Dribbling":64.0,
-    "Defending":70.0,
-    "Physical":73.0
+    "Defending":69.0,
+    "Physical":74.0
   },
   {
     "Name":"Chaco",
@@ -58,27 +58,27 @@
     "Pace":60.0,
     "Shooting":81.0,
     "Passing":56.0,
-    "Dribbling":55.0,
+    "Dribbling":54.0,
     "Defending":40.0,
-    "Physical":64.0
+    "Physical":61.0
   },
   {
     "Name":"Chris",
     "Pace":62.0,
     "Shooting":73.0,
-    "Passing":72.0,
-    "Dribbling":67.0,
+    "Passing":70.0,
+    "Dribbling":64.0,
     "Defending":87.0,
-    "Physical":80.0
+    "Physical":77.0
   },
   {
     "Name":"Dan",
     "Pace":55.0,
     "Shooting":64.0,
     "Passing":46.0,
-    "Dribbling":42.0,
-    "Defending":33.0,
-    "Physical":62.0
+    "Dribbling":41.0,
+    "Defending":30.0,
+    "Physical":61.0
   },
   {
     "Name":"Emma",
@@ -92,11 +92,11 @@
   {
     "Name":"Josue",
     "Pace":40.0,
-    "Shooting":26.0,
+    "Shooting":24.0,
     "Passing":40.0,
     "Dribbling":27.0,
     "Defending":37.0,
-    "Physical":48.0
+    "Physical":49.0
   },
   {
     "Name":"Kevin",
@@ -110,20 +110,20 @@
   {
     "Name":"Mauro",
     "Pace":75.0,
-    "Shooting":38.0,
-    "Passing":46.0,
-    "Dribbling":30.0,
-    "Defending":52.0,
-    "Physical":62.0
+    "Shooting":40.0,
+    "Passing":48.0,
+    "Dribbling":29.0,
+    "Defending":53.0,
+    "Physical":60.0
   },
   {
     "Name":"Rolo",
-    "Pace":50.0,
+    "Pace":51.0,
     "Shooting":35.0,
     "Passing":43.0,
-    "Dribbling":33.0,
+    "Dribbling":31.0,
     "Defending":65.0,
-    "Physical":67.0
+    "Physical":70.0
   },
   {
     "Name":"Santi",
@@ -136,20 +136,20 @@
   },
   {
     "Name":"Teclas",
-    "Pace":89.0,
-    "Shooting":86.0,
+    "Pace":88.0,
+    "Shooting":85.0,
     "Passing":71.0,
-    "Dribbling":85.0,
-    "Defending":46.0,
-    "Physical":70.0
+    "Dribbling":83.0,
+    "Defending":44.0,
+    "Physical":68.0
   },
   {
     "Name":"Undrik",
     "Pace":50.0,
     "Shooting":35.0,
-    "Passing":44.0,
-    "Dribbling":36.0,
-    "Defending":61.0,
+    "Passing":45.0,
+    "Dribbling":38.0,
+    "Defending":62.0,
     "Physical":60.0
   }
 ]

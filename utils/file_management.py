@@ -36,14 +36,20 @@ def save_dataframe_to_json(df, json_path):
     """
     df.to_json(json_path, orient='records', indent=2)
 
+def get_bk_players_list():
+    bk_dir = os.path.join(st.session_state.config["data_dir"], "bks")
+    if not os.path.exists(bk_dir):
+        st.warning(f"Backups directory does not exist: {bk_dir}")
+        return []
+    return [os.path.join(bk_dir, f) for f in os.listdir(bk_dir) if os.path.isfile(os.path.join(bk_dir, f))]
 
-def load_players():
+def load_players(filename=None):
     player_columns = st.session_state.config["players_columns"]
     file_path = os.path.join(
-        st.session_state.config["data_dir"], st.session_state.config["players_filename"])
+        st.session_state.config["data_dir"], st.session_state.config["players_filename"]) if filename is None else filename
 
     df = load_or_create_json_dataframe(file_path, player_columns)
-
+    st.write(f"Loaded players from {file_path}: {len(df)} records")
     if len(df) == 0:
         df = pd.DataFrame(columns=player_columns)
 
