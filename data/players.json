@@ -84,7 +84,7 @@
     "Name":"Emma",
     "Pace":85.0,
     "Shooting":92.0,
-    "Passing":83.0,
+    "Passing":70.0,
     "Dribbling":90.0,
     "Defending":77.0,
     "Physical":84.0
@@ -151,5 +151,14 @@
     "Dribbling":36.0,
     "Defending":61.0,
     "Physical":60.0
+  },
+  {
+    "Name":"Willy",
+    "Pace":79.0,
+    "Shooting":75.0,
+    "Passing":83.0,
+    "Dribbling":88.0,
+    "Defending":65.0,
+    "Physical":74.0
   }
 ]
