@@ -8,7 +8,7 @@ A web app for creating balanced and customizable soccer teams, designed for quic
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/<your-username>/team-generator.git
+    git clone https://github.com/eadan97/team-generator.git
     cd team-generator
     ```
 
