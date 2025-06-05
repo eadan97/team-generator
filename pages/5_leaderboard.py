@@ -7,7 +7,7 @@ st.title("🏆 Leaderboard")
 
 if "bk_files" not in st.session_state:
     st.session_state.bk_files = get_bk_players_list()
-    st.session_state.bk_files.append("players.json")
+    st.session_state.bk_files.append("./data/players.json")
 
 st.subheader("Files to compare")
 col1, col2 = st.columns(2)

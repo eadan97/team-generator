@@ -1,14 +1,8 @@
 
 data_dir: ./data
 players_filename: players.json
-players_columns:
+player_base_columns:
   - Name
-  - Pace
-  - Shooting
-  - Passing
-  - Dribbling
-  - Defending
-  - Physical
 player_stats:
   - Pace
   - Shooting
@@ -16,3 +10,10 @@ player_stats:
   - Dribbling
   - Defending
   - Physical
+goalkeeper_stats:
+  - Diving
+  - Handling
+  - Kicking
+  - Reflexes
+  - Speed
+  - Positioning

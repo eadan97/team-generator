@@ -7,6 +7,7 @@ dependencies:
   - streamlit
   - pyyaml
   - ortools-python
+  - tinydb
   - pytest
   - ipykernel
   - pip
