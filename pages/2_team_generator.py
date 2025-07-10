@@ -121,7 +121,7 @@ if st.button("Generate Teams"):
                 teams_dfs = []
                 for i in range(2): # TODO: change this to a max value of selected_var_list
                     st.subheader(f"Team {i+1}")
-                    team_df = selected_players_df[[x == i for x in selected_var_list]].reset_index(drop=True)
+                    team_df = selected_players_df[[x == i for x in selected_var_list]].reset_index(drop=True)[st.session_state.config["player_base_columns"] + st.session_state.config["player_stats"]]
                     st.table(team_df)
                     teams_dfs.append(team_df[st.session_state.config["player_stats"]].sum())
 
