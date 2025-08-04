@@ -120,6 +120,21 @@
     "Positioning":0.0
   },
   {
+    "Name":"Cordoba",
+    "Pace":68.0,
+    "Shooting":69.0,
+    "Passing":58.0,
+    "Dribbling":62.0,
+    "Defending":65.0,
+    "Physical":60.0,
+    "Diving":null,
+    "Handling":null,
+    "Kicking":null,
+    "Reflexes":null,
+    "Speed":null,
+    "Positioning":null
+  },
+  {
     "Name":"Dan",
     "Pace":56.0,
     "Shooting":68.0,
@@ -148,6 +163,21 @@
     "Reflexes":0.0,
     "Speed":0.0,
     "Positioning":0.0
+  },
+  {
+    "Name":"Gaycam",
+    "Pace":45.0,
+    "Shooting":33.0,
+    "Passing":40.0,
+    "Dribbling":30.0,
+    "Defending":35.0,
+    "Physical":50.0,
+    "Diving":null,
+    "Handling":null,
+    "Kicking":null,
+    "Reflexes":null,
+    "Speed":null,
+    "Positioning":null
   },
   {
     "Name":"Josue",
@@ -298,5 +328,20 @@
     "Reflexes":0.0,
     "Speed":0.0,
     "Positioning":0.0
+  },
+  {
+    "Name":"Ubilla",
+    "Pace":85.0,
+    "Shooting":92.0,
+    "Passing":70.0,
+    "Dribbling":90.0,
+    "Defending":77.0,
+    "Physical":84.0,
+    "Diving":null,
+    "Handling":null,
+    "Kicking":null,
+    "Reflexes":null,
+    "Speed":null,
+    "Positioning":null
   }
 ]
