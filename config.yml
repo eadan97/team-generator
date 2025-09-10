@@ -3,13 +3,43 @@ data_dir: ./data
 players_filename: players.json
 player_base_columns:
   - Name
-player_stats:
-  - Pace
-  - Shooting
-  - Passing
-  - Dribbling
-  - Defending
-  - Physical
+Player Stats:
+  Pace:
+    Acceleration: 45
+    Sprint Speed: 55
+  Shooting:
+    Position: 10
+    Finishing: 45
+    Shot Power: 25
+    Long Shots: 15
+    Volleys: 5
+    Penalties: 0 
+  Passing:
+    Vision: 25
+    Crossing: 15
+    Free Kick Accuracy: 0
+    Short Pass: 40
+    Long Pass: 15
+    Curve: 5
+  Dribbling:
+    Agility: 10
+    Balance: 5
+    Reactions: 10
+    Ball Control: 25
+    Dribbling: 40
+    Composure: 10
+  Defending:
+    Interceptions: 20
+    Heading Accuracy: 10
+    Defence Awareness: 30
+    Stand Tackle: 30
+    Slide Tackle: 10
+  Physical:
+    Jumping: 5
+    Stamina: 40
+    Strength: 40
+    Aggression: 15
+
 goalkeeper_stats:
   - Diving
   - Handling

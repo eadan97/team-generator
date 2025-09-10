@@ -11,6 +11,10 @@
     "python.testing.pytestArgs": [
         "tests"
     ],
+    "peacock.remoteColor": "#1b1d73",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#25279c",
         "activityBar.background": "#25279c",
@@ -29,9 +33,5 @@
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#1b1d7399",
         "titleBar.inactiveForeground": "#e7e7e799"
-    },
-    "peacock.remoteColor": "#1b1d73",
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
     },
 }

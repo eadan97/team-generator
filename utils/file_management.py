@@ -47,22 +47,16 @@ def get_bk_players_list():
         return []
     return [os.path.join(bk_dir, f) for f in os.listdir(bk_dir) if os.path.isfile(os.path.join(bk_dir, f))]
 
-def load_players(filename=None):
-    player_base_columns = st.session_state.config["player_base_columns"]
-    player_stats = st.session_state.config["player_stats"]
-    goalkeeper_stats = st.session_state.config["goalkeeper_stats"]
-
-    player_columns = player_base_columns + player_stats + goalkeeper_stats
-
+def load_players(filename=None) -> dict:
     file_path = os.path.join(
         st.session_state.config["data_dir"], st.session_state.config["players_filename"]) if filename is None else filename
 
-    df = load_or_create_json_dataframe(file_path, player_columns)
-    st.write(f"Loaded players from {file_path}: {len(df)} records")
-    if len(df) == 0:
-        df = pd.DataFrame(columns=player_columns)
-
-    return df
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as f:
+            data = json.load(f)
+            return data
+    else:
+        return None
 
 
 def save_players(df):
