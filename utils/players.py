@@ -18,13 +18,13 @@ def get_average_stats_df(players: list[dict], stats_config: dict) -> pd.DataFram
         [
             {
                 **{
-                    stat: sum(
-                        [
+                    stat: round(
+                        sum(
                             player["Stats"]["Outfield"][stat][substat]
                             * stats_config[stat][substat]
-                            // 100
+                            / 100
                             for substat in stats_config[stat]
-                        ]
+                        )
                     )
                     for stat in stats_config
                 },
