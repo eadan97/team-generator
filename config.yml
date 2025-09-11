@@ -1,5 +1,6 @@
 
 data_dir: ./data
+bk_dir: ./data/bks
 players_filename: players.json
 player_base_columns:
   - Name
