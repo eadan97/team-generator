@@ -13,12 +13,8 @@ Player Stats:
     Finishing: 45
     Shot Power: 25
     Long Shots: 15
-    Volleys: 0 # TODO: Remove
-    Penalties: 0 # TODO: Remove
   Passing:
     Vision: 30
-    Crossing: 0 # TODO: Remove
-    Free Kick Accuracy: 0 # TODO: Remove
     Short Pass: 45
     Long Pass: 25
   Dribbling:

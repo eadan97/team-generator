@@ -11,17 +11,12 @@
           "Position": 45,
           "Finishing": 40,
           "Shot Power": 50,
-          "Long Shots": 30,
-          "Volleys": 100,
-          "Penalties": 100
+          "Long Shots": 30
         },
         "Passing": {
           "Vision": 50.0,
-          "Crossing": 89,
-          "Free Kick Accuracy": 77,
           "Short Pass": 52,
-          "Long Pass": 46,
-          "Curve": 87
+          "Long Pass": 46
         },
         "Dribbling": {
           "Agility": 50,
@@ -66,17 +61,12 @@
           "Position": 79,
           "Finishing": 82,
           "Shot Power": 78.0,
-          "Long Shots": 66,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 66
         },
         "Passing": {
           "Vision": 64,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 66,
-          "Long Pass": 60,
-          "Curve": 0
+          "Long Pass": 60
         },
         "Dribbling": {
           "Agility": 64,
@@ -121,17 +111,12 @@
           "Position": 83,
           "Finishing": 85,
           "Shot Power": 86,
-          "Long Shots": 80,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 80
         },
         "Passing": {
           "Vision": 65,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 65,
-          "Long Pass": 55,
-          "Curve": 0
+          "Long Pass": 55
         },
         "Dribbling": {
           "Agility": 70,
@@ -176,17 +161,12 @@
           "Position": 65,
           "Finishing": 70.0,
           "Shot Power": 73,
-          "Long Shots": 72,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 72
         },
         "Passing": {
           "Vision": 63,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 59,
-          "Long Pass": 53,
-          "Curve": 0
+          "Long Pass": 53
         },
         "Dribbling": {
           "Agility": 60,
@@ -231,17 +211,12 @@
           "Position": 73.0,
           "Finishing": 77,
           "Shot Power": 73.0,
-          "Long Shots": 66,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 66
         },
         "Passing": {
           "Vision": 68,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 70,
-          "Long Pass": 60,
-          "Curve": 0
+          "Long Pass": 60
         },
         "Dribbling": {
           "Agility": 72,
@@ -286,17 +261,12 @@
           "Position": 80,
           "Finishing": 79,
           "Shot Power": 88,
-          "Long Shots": 80,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 80
         },
         "Passing": {
           "Vision": 60,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 57,
-          "Long Pass": 54.0,
-          "Curve": 0
+          "Long Pass": 54.0
         },
         "Dribbling": {
           "Agility": 53,
@@ -341,17 +311,12 @@
           "Position": 70,
           "Finishing": 77,
           "Shot Power": 78,
-          "Long Shots": 63,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 63
         },
         "Passing": {
           "Vision": 70,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 72,
-          "Long Pass": 65,
-          "Curve": 0
+          "Long Pass": 65
         },
         "Dribbling": {
           "Agility": 73,
@@ -396,17 +361,12 @@
           "Position": 75,
           "Finishing": 79,
           "Shot Power": 73.0,
-          "Long Shots": 66,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 66
         },
         "Passing": {
           "Vision": 65,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 67,
-          "Long Pass": 62,
-          "Curve": 0
+          "Long Pass": 62
         },
         "Dribbling": {
           "Agility": 68,
@@ -451,17 +411,12 @@
           "Position": 67,
           "Finishing": 75,
           "Shot Power": 73,
-          "Long Shots": 61,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 61
         },
         "Passing": {
           "Vision": 58,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 59,
-          "Long Pass": 52,
-          "Curve": 0
+          "Long Pass": 52
         },
         "Dribbling": {
           "Agility": 57.0,
@@ -499,45 +454,40 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 85.0,
-          "Sprint Speed": 85.0
+          "Acceleration": 87,
+          "Sprint Speed": 82
         },
         "Shooting": {
-          "Position": 88.0,
-          "Finishing": 88.0,
-          "Shot Power": 88.0,
-          "Long Shots": 88.0,
-          "Volleys": 88.0,
-          "Penalties": 88.0
+          "Position": 83,
+          "Finishing": 83,
+          "Shot Power": 87,
+          "Long Shots": 77
         },
         "Passing": {
-          "Vision": 70.0,
-          "Crossing": 70.0,
-          "Free Kick Accuracy": 70.0,
+          "Vision": 72,
           "Short Pass": 70.0,
-          "Long Pass": 70.0,
-          "Curve": 70.0
+          "Long Pass": 64
         },
         "Dribbling": {
-          "Agility": 87.0,
-          "Balance": 87.0,
-          "Reactions": 87.0,
-          "Ball Control": 87.0,
-          "Dribbling": 87.0,
-          "Composure": 87.0
+          "Agility": 88,
+          "Balance": 80,
+          "Reactions": 80,
+          "Ball Control": 83,
+          "Dribbling": 84,
+          "Composure": 89
         },
         "Defending": {
-          "Interceptions": 75.0,
-          "Heading Accuracy": 75.0,
-          "Defence Awareness": 75.0,
-          "Stand Tackle": 75.0,
-          "Slide Tackle": 75.0
+          "Interceptions": 68,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 76,
+          "Stand Tackle": 70,
+          "Slide Tackle": 10
         },
         "Physical": {
-          "Jumping": 81.0,
+          "Jumping": 30,
           "Stamina": 81.0,
-          "Strength": 81.0,
-          "Aggression": 81.0
+          "Strength": 76,
+          "Aggression": 80
         }
       },
       "Goalkeeper": {
@@ -550,61 +500,6 @@
     }
   },
   {
-    "Name": "Gaycam",
-    "Stats": {
-      "Outfield": {
-        "Pace": {
-          "Acceleration": 50.0,
-          "Sprint Speed": 50.0
-        },
-        "Shooting": {
-          "Position": 37.0,
-          "Finishing": 37.0,
-          "Shot Power": 37.0,
-          "Long Shots": 37.0,
-          "Volleys": 37.0,
-          "Penalties": 37.0
-        },
-        "Passing": {
-          "Vision": 43.0,
-          "Crossing": 43.0,
-          "Free Kick Accuracy": 43.0,
-          "Short Pass": 43.0,
-          "Long Pass": 43.0,
-          "Curve": 43.0
-        },
-        "Dribbling": {
-          "Agility": 30.0,
-          "Balance": 30.0,
-          "Reactions": 30.0,
-          "Ball Control": 30.0,
-          "Dribbling": 30.0,
-          "Composure": 30.0
-        },
-        "Defending": {
-          "Interceptions": 39.0,
-          "Heading Accuracy": 39.0,
-          "Defence Awareness": 39.0,
-          "Stand Tackle": 39.0,
-          "Slide Tackle": 39.0
-        },
-        "Physical": {
-          "Jumping": 50.0,
-          "Stamina": 50.0,
-          "Strength": 50.0,
-          "Aggression": 50.0
-        }
-      },
-      "Goalkeeper": {
-        "Handling": null,
-        "Kicking": null,
-        "Reflexes": null,
-        "Speed": null,
-        "Positioning": null
-      }
-    }
-  },
-  {
     "Name": "Josue",
     "Stats": {
       "Outfield": {
@@ -613,41 +508,86 @@
           "Sprint Speed": 40.0
         },
         "Shooting": {
-          "Position": 26.0,
-          "Finishing": 26.0,
-          "Shot Power": 26.0,
-          "Long Shots": 26.0,
-          "Volleys": 26.0,
-          "Penalties": 26.0
+          "Position": 30,
+          "Finishing": 30,
+          "Shot Power": 40,
+          "Long Shots": 22
         },
         "Passing": {
           "Vision": 42.0,
-          "Crossing": 42.0,
-          "Free Kick Accuracy": 42.0,
           "Short Pass": 42.0,
-          "Long Pass": 42.0,
-          "Curve": 42.0
+          "Long Pass": 36
         },
         "Dribbling": {
-          "Agility": 28.0,
-          "Balance": 28.0,
-          "Reactions": 28.0,
+          "Agility": 35,
+          "Balance": 50,
+          "Reactions": 33,
           "Ball Control": 28.0,
-          "Dribbling": 28.0,
-          "Composure": 28.0
+          "Dribbling": 29,
+          "Composure": 30
         },
         "Defending": {
-          "Interceptions": 37.0,
-          "Heading Accuracy": 37.0,
-          "Defence Awareness": 37.0,
-          "Stand Tackle": 37.0,
-          "Slide Tackle": 37.0
+          "Interceptions": 35,
+          "Heading Accuracy": 20,
+          "Defence Awareness": 32,
+          "Stand Tackle": 40,
+          "Slide Tackle": 0
         },
         "Physical": {
-          "Jumping": 48.0,
-          "Stamina": 48.0,
-          "Strength": 48.0,
-          "Aggression": 48.0
+          "Jumping": 20,
+          "Stamina": 48,
+          "Strength": 70,
+          "Aggression": 50
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
+  },
+  {
+    "Name": "Marliton",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 66,
+          "Sprint Speed": 68
+        },
+        "Shooting": {
+          "Position": 83,
+          "Finishing": 86,
+          "Shot Power": 76,
+          "Long Shots": 60
+        },
+        "Passing": {
+          "Vision": 64,
+          "Short Pass": 63,
+          "Long Pass": 55
+        },
+        "Dribbling": {
+          "Agility": 64,
+          "Balance": 70,
+          "Reactions": 65,
+          "Ball Control": 64,
+          "Dribbling": 68,
+          "Composure": 65
+        },
+        "Defending": {
+          "Interceptions": 45,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 40,
+          "Stand Tackle": 47,
+          "Slide Tackle": 10
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 62,
+          "Strength": 70,
+          "Aggression": 70
         }
       },
       "Goalkeeper": {
@@ -664,45 +604,40 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 75.0,
+          "Acceleration": 69,
           "Sprint Speed": 75.0
         },
         "Shooting": {
-          "Position": 38.0,
-          "Finishing": 38.0,
-          "Shot Power": 38.0,
-          "Long Shots": 38.0,
-          "Volleys": 38.0,
-          "Penalties": 38.0
+          "Position": 57,
+          "Finishing": 40,
+          "Shot Power": 54,
+          "Long Shots": 40
         },
         "Passing": {
-          "Vision": 45.0,
-          "Crossing": 45.0,
-          "Free Kick Accuracy": 45.0,
-          "Short Pass": 45.0,
-          "Long Pass": 45.0,
-          "Curve": 45.0
+          "Vision": 49,
+          "Short Pass": 43,
+          "Long Pass": 39
         },
         "Dribbling": {
-          "Agility": 30.0,
-          "Balance": 30.0,
-          "Reactions": 30.0,
+          "Agility": 44,
+          "Balance": 59,
+          "Reactions": 60,
           "Ball Control": 30.0,
-          "Dribbling": 30.0,
-          "Composure": 30.0
+          "Dribbling": 33,
+          "Composure": 37
         },
         "Defending": {
-          "Interceptions": 48.0,
-          "Heading Accuracy": 48.0,
-          "Defence Awareness": 48.0,
-          "Stand Tackle": 48.0,
-          "Slide Tackle": 48.0
+          "Interceptions": 40,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 35,
+          "Stand Tackle": 40,
+          "Slide Tackle": 0
         },
         "Physical": {
-          "Jumping": 62.0,
-          "Stamina": 62.0,
-          "Strength": 62.0,
-          "Aggression": 62.0
+          "Jumping": 30,
+          "Stamina": 81,
+          "Strength": 60,
+          "Aggression": 55
         }
       },
       "Goalkeeper": {
@@ -726,17 +661,12 @@
           "Position": 75.0,
           "Finishing": 78,
           "Shot Power": 76,
-          "Long Shots": 68,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 68
         },
         "Passing": {
           "Vision": 76,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 73,
-          "Long Pass": 69,
-          "Curve": 0
+          "Long Pass": 69
         },
         "Dribbling": {
           "Agility": 64,
@@ -781,17 +711,12 @@
           "Position": 55,
           "Finishing": 43,
           "Shot Power": 52,
-          "Long Shots": 28,
-          "Volleys": 89,
-          "Penalties": 100
+          "Long Shots": 28
         },
         "Passing": {
           "Vision": 47,
-          "Crossing": 55,
-          "Free Kick Accuracy": 33,
           "Short Pass": 47,
-          "Long Pass": 42,
-          "Curve": 0
+          "Long Pass": 42
         },
         "Dribbling": {
           "Agility": 37,
@@ -829,42 +754,37 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 70.0,
-          "Sprint Speed": 70.0
+          "Acceleration": 72,
+          "Sprint Speed": 72
         },
         "Shooting": {
-          "Position": 72.0,
-          "Finishing": 72.0,
-          "Shot Power": 72.0,
-          "Long Shots": 72.0,
-          "Volleys": 72.0,
-          "Penalties": 72.0
+          "Position": 69,
+          "Finishing": 73,
+          "Shot Power": 76,
+          "Long Shots": 74
         },
         "Passing": {
-          "Vision": 58.0,
-          "Crossing": 58.0,
-          "Free Kick Accuracy": 58.0,
-          "Short Pass": 58.0,
-          "Long Pass": 58.0,
-          "Curve": 58.0
+          "Vision": 64,
+          "Short Pass": 59,
+          "Long Pass": 52
         },
         "Dribbling": {
-          "Agility": 70.0,
-          "Balance": 70.0,
+          "Agility": 65,
+          "Balance": 63,
           "Reactions": 70.0,
-          "Ball Control": 70.0,
-          "Dribbling": 70.0,
-          "Composure": 70.0
+          "Ball Control": 65,
+          "Dribbling": 67,
+          "Composure": 65
         },
         "Defending": {
-          "Interceptions": 74.0,
-          "Heading Accuracy": 74.0,
-          "Defence Awareness": 74.0,
-          "Stand Tackle": 74.0,
-          "Slide Tackle": 74.0
+          "Interceptions": 60,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 70,
+          "Stand Tackle": 64,
+          "Slide Tackle": 10
         },
         "Physical": {
-          "Jumping": 68.0,
+          "Jumping": 30,
           "Stamina": 68.0,
           "Strength": 68.0,
           "Aggression": 68.0
@@ -891,17 +811,12 @@
           "Position": 82,
           "Finishing": 83.0,
           "Shot Power": 86,
-          "Long Shots": 85,
-          "Volleys": 0,
-          "Penalties": 0
+          "Long Shots": 85
         },
         "Passing": {
           "Vision": 69.0,
-          "Crossing": 0,
-          "Free Kick Accuracy": 0,
           "Short Pass": 70,
-          "Long Pass": 65,
-          "Curve": 0
+          "Long Pass": 65
         },
         "Dribbling": {
           "Agility": 87,
@@ -943,41 +858,36 @@
           "Sprint Speed": 83.0
         },
         "Shooting": {
-          "Position": 90.0,
-          "Finishing": 90.0,
-          "Shot Power": 90.0,
-          "Long Shots": 90.0,
-          "Volleys": 90.0,
-          "Penalties": 90.0
+          "Position": 85,
+          "Finishing": 85,
+          "Shot Power": 85,
+          "Long Shots": 84
         },
         "Passing": {
           "Vision": 80.0,
-          "Crossing": 80.0,
-          "Free Kick Accuracy": 80.0,
-          "Short Pass": 80.0,
-          "Long Pass": 80.0,
-          "Curve": 80.0
+          "Short Pass": 79,
+          "Long Pass": 75
         },
         "Dribbling": {
           "Agility": 90.0,
-          "Balance": 90.0,
-          "Reactions": 90.0,
-          "Ball Control": 90.0,
-          "Dribbling": 90.0,
+          "Balance": 87,
+          "Reactions": 82,
+          "Ball Control": 85,
+          "Dribbling": 85,
           "Composure": 90.0
         },
         "Defending": {
-          "Interceptions": 77.0,
-          "Heading Accuracy": 77.0,
-          "Defence Awareness": 77.0,
-          "Stand Tackle": 77.0,
-          "Slide Tackle": 77.0
+          "Interceptions": 70,
+          "Heading Accuracy": 50,
+          "Defence Awareness": 80,
+          "Stand Tackle": 75,
+          "Slide Tackle": 35
         },
         "Physical": {
-          "Jumping": 82.0,
-          "Stamina": 82.0,
-          "Strength": 82.0,
-          "Aggression": 82.0
+          "Jumping": 30,
+          "Stamina": 80,
+          "Strength": 71,
+          "Aggression": 78
         }
       },
       "Goalkeeper": {
