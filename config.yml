@@ -9,37 +9,36 @@ Player Stats:
     Acceleration: 45
     Sprint Speed: 55
   Shooting:
-    Position: 10
+    Position: 15 # This attribute measures a player's ability to find and create goal-scoring opportunities through intelligent movement and positioning on the field.
     Finishing: 45
     Shot Power: 25
     Long Shots: 15
-    Volleys: 5
-    Penalties: 0 
+    Volleys: 0 # TODO: Remove
+    Penalties: 0 # TODO: Remove
   Passing:
-    Vision: 25
-    Crossing: 15
-    Free Kick Accuracy: 0
-    Short Pass: 40
-    Long Pass: 15
-    Curve: 5
+    Vision: 30
+    Crossing: 0 # TODO: Remove
+    Free Kick Accuracy: 0 # TODO: Remove
+    Short Pass: 45
+    Long Pass: 25
   Dribbling:
-    Agility: 10
-    Balance: 5
-    Reactions: 10
-    Ball Control: 25
-    Dribbling: 40
-    Composure: 10
+    Agility: 10 # This attribute measures a player's ability to change direction quickly and maintain control of the ball while doing so.
+    Balance: 5 # Maintaining stability and control while dribbling, especially when under pressure from opponents.
+    Reactions: 10 # Quickness in responding to situations on the field, such as loose balls or sudden changes in play.
+    Ball Control: 25 # The ability to control the ball effectively, including first touch and close control.
+    Dribbling: 40 # The skill of maneuvering the ball past opponents while maintaining possession.
+    Composure: 10 # The ability to remain calm and make good decisions under pressure.
   Defending:
-    Interceptions: 20
-    Heading Accuracy: 10
-    Defence Awareness: 30
-    Stand Tackle: 30
-    Slide Tackle: 10
+    Interceptions: 27 # The ability to read the game and cut out passes from the opposition.
+    Heading Accuracy: 5 # The skill of directing the ball accurately with the head, both in defensive and offensive situations.
+    Defence Awareness: 33 # Understanding of positioning and tactics in defensive situations.
+    Stand Tackle: 30 # The ability to successfully challenge an opponent for the ball while standing.
+    Slide Tackle: 5 # The skill of executing a sliding challenge to dispossess an opponent.
   Physical:
-    Jumping: 5
+    Jumping: 5 
     Stamina: 40
-    Strength: 40
-    Aggression: 15
+    Strength: 40 # The physical power and ability to hold off opponents.
+    Aggression: 15 # The intensity and DETERMINATION a player shows in physical contests and duels.
 
 goalkeeper_stats:
   - Diving
