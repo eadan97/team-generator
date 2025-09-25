@@ -25,11 +25,10 @@ Player Stats:
     Dribbling: 40 # The skill of maneuvering the ball past opponents while maintaining possession.
     Composure: 10 # The ability to remain calm and make good decisions under pressure.
   Defending:
-    Interceptions: 27 # The ability to read the game and cut out passes from the opposition.
-    Heading Accuracy: 5 # The skill of directing the ball accurately with the head, both in defensive and offensive situations.
-    Defence Awareness: 33 # Understanding of positioning and tactics in defensive situations.
+    Interceptions: 29 # The ability to read the game and cut out passes from the opposition.
+    Heading Accuracy: 3 # The skill of directing the ball accurately with the head, both in defensive and offensive situations.
+    Defence Awareness: 38 # Understanding of positioning and tactics in defensive situations.
     Stand Tackle: 30 # The ability to successfully challenge an opponent for the ball while standing.
-    Slide Tackle: 5 # The skill of executing a sliding challenge to dispossess an opponent.
   Physical:
     Jumping: 5 
     Stamina: 40

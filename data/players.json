@@ -30,8 +30,7 @@
           "Interceptions": 66,
           "Heading Accuracy": 30,
           "Defence Awareness": 73,
-          "Stand Tackle": 72,
-          "Slide Tackle": 50
+          "Stand Tackle": 72
         },
         "Physical": {
           "Jumping": 30,
@@ -80,8 +79,7 @@
           "Interceptions": 63,
           "Heading Accuracy": 30,
           "Defence Awareness": 71,
-          "Stand Tackle": 66,
-          "Slide Tackle": 20
+          "Stand Tackle": 66
         },
         "Physical": {
           "Jumping": 30,
@@ -130,8 +128,7 @@
           "Interceptions": 48,
           "Heading Accuracy": 55,
           "Defence Awareness": 40,
-          "Stand Tackle": 53,
-          "Slide Tackle": 0
+          "Stand Tackle": 53
         },
         "Physical": {
           "Jumping": 30,
@@ -180,8 +177,7 @@
           "Interceptions": 71,
           "Heading Accuracy": 30,
           "Defence Awareness": 78,
-          "Stand Tackle": 71,
-          "Slide Tackle": 50
+          "Stand Tackle": 71
         },
         "Physical": {
           "Jumping": 30,
@@ -230,8 +226,7 @@
           "Interceptions": 74,
           "Heading Accuracy": 40,
           "Defence Awareness": 80,
-          "Stand Tackle": 74,
-          "Slide Tackle": 60
+          "Stand Tackle": 74
         },
         "Physical": {
           "Jumping": 31,
@@ -280,8 +275,7 @@
           "Interceptions": 48,
           "Heading Accuracy": 40.0,
           "Defence Awareness": 40.0,
-          "Stand Tackle": 47,
-          "Slide Tackle": 0
+          "Stand Tackle": 47
         },
         "Physical": {
           "Jumping": 30,
@@ -330,8 +324,7 @@
           "Interceptions": 71,
           "Heading Accuracy": 66,
           "Defence Awareness": 82,
-          "Stand Tackle": 80.0,
-          "Slide Tackle": 0
+          "Stand Tackle": 80.0
         },
         "Physical": {
           "Jumping": 31,
@@ -380,8 +373,7 @@
           "Interceptions": 55,
           "Heading Accuracy": 30,
           "Defence Awareness": 55,
-          "Stand Tackle": 52,
-          "Slide Tackle": 10
+          "Stand Tackle": 52
         },
         "Physical": {
           "Jumping": 31,
@@ -430,8 +422,7 @@
           "Interceptions": 49,
           "Heading Accuracy": 30,
           "Defence Awareness": 41,
-          "Stand Tackle": 47,
-          "Slide Tackle": 10
+          "Stand Tackle": 47
         },
         "Physical": {
           "Jumping": 30,
@@ -480,8 +471,7 @@
           "Interceptions": 68,
           "Heading Accuracy": 30,
           "Defence Awareness": 76,
-          "Stand Tackle": 70,
-          "Slide Tackle": 10
+          "Stand Tackle": 70
         },
         "Physical": {
           "Jumping": 30,
@@ -530,8 +520,7 @@
           "Interceptions": 35,
           "Heading Accuracy": 20,
           "Defence Awareness": 32,
-          "Stand Tackle": 40,
-          "Slide Tackle": 0
+          "Stand Tackle": 40
         },
         "Physical": {
           "Jumping": 20,
@@ -580,8 +569,7 @@
           "Interceptions": 45,
           "Heading Accuracy": 30,
           "Defence Awareness": 40,
-          "Stand Tackle": 47,
-          "Slide Tackle": 10
+          "Stand Tackle": 47
         },
         "Physical": {
           "Jumping": 30,
@@ -630,8 +618,7 @@
           "Interceptions": 40,
           "Heading Accuracy": 30,
           "Defence Awareness": 35,
-          "Stand Tackle": 40,
-          "Slide Tackle": 0
+          "Stand Tackle": 40
         },
         "Physical": {
           "Jumping": 30,
@@ -680,8 +667,7 @@
           "Interceptions": 74,
           "Heading Accuracy": 30,
           "Defence Awareness": 79,
-          "Stand Tackle": 68,
-          "Slide Tackle": 10
+          "Stand Tackle": 68
         },
         "Physical": {
           "Jumping": 30,
@@ -730,8 +716,7 @@
           "Interceptions": 45,
           "Heading Accuracy": 30,
           "Defence Awareness": 65.0,
-          "Stand Tackle": 70,
-          "Slide Tackle": 1
+          "Stand Tackle": 70
         },
         "Physical": {
           "Jumping": 30,
@@ -780,8 +765,7 @@
           "Interceptions": 60,
           "Heading Accuracy": 30,
           "Defence Awareness": 70,
-          "Stand Tackle": 64,
-          "Slide Tackle": 10
+          "Stand Tackle": 64
         },
         "Physical": {
           "Jumping": 30,
@@ -830,8 +814,7 @@
           "Interceptions": 50,
           "Heading Accuracy": 30,
           "Defence Awareness": 51,
-          "Stand Tackle": 50,
-          "Slide Tackle": 45
+          "Stand Tackle": 50
         },
         "Physical": {
           "Jumping": 32,
@@ -880,8 +863,7 @@
           "Interceptions": 70,
           "Heading Accuracy": 50,
           "Defence Awareness": 80,
-          "Stand Tackle": 75,
-          "Slide Tackle": 35
+          "Stand Tackle": 75
         },
         "Physical": {
           "Jumping": 30,
