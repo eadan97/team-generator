@@ -1,347 +1,884 @@
 [
   {
-    "Name":"Adan",
-    "Pace":68.0,
-    "Shooting":35.0,
-    "Passing":50.0,
-    "Dribbling":41.0,
-    "Defending":65.0,
-    "Physical":68.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Adan",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 68,
+          "Sprint Speed": 68.0
+        },
+        "Shooting": {
+          "Position": 45,
+          "Finishing": 40,
+          "Shot Power": 50,
+          "Long Shots": 30
+        },
+        "Passing": {
+          "Vision": 50.0,
+          "Short Pass": 52,
+          "Long Pass": 46
+        },
+        "Dribbling": {
+          "Agility": 50,
+          "Balance": 59,
+          "Reactions": 52,
+          "Ball Control": 49,
+          "Dribbling": 45,
+          "Composure": 50
+        },
+        "Defending": {
+          "Interceptions": 66,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 73,
+          "Stand Tackle": 72
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 67,
+          "Strength": 70,
+          "Aggression": 72
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Andrey",
-    "Pace":70.0,
-    "Shooting":78.0,
-    "Passing":62.0,
-    "Dribbling":65.0,
-    "Defending":61.0,
-    "Physical":70.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Andrey",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 70,
+          "Sprint Speed": 70.0
+        },
+        "Shooting": {
+          "Position": 79,
+          "Finishing": 82,
+          "Shot Power": 78.0,
+          "Long Shots": 66
+        },
+        "Passing": {
+          "Vision": 64,
+          "Short Pass": 66,
+          "Long Pass": 60
+        },
+        "Dribbling": {
+          "Agility": 64,
+          "Balance": 66,
+          "Reactions": 71,
+          "Ball Control": 66,
+          "Dribbling": 65.0,
+          "Composure": 64
+        },
+        "Defending": {
+          "Interceptions": 63,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 71,
+          "Stand Tackle": 66
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 75,
+          "Strength": 71,
+          "Aggression": 72
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Artavia",
-    "Pace":71.0,
-    "Shooting":85.0,
-    "Passing":62.0,
-    "Dribbling":80.0,
-    "Defending":46.0,
-    "Physical":78.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Artavia",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 69,
+          "Sprint Speed": 71
+        },
+        "Shooting": {
+          "Position": 83,
+          "Finishing": 85,
+          "Shot Power": 86,
+          "Long Shots": 80
+        },
+        "Passing": {
+          "Vision": 65,
+          "Short Pass": 65,
+          "Long Pass": 55
+        },
+        "Dribbling": {
+          "Agility": 70,
+          "Balance": 85,
+          "Reactions": 72,
+          "Ball Control": 80.0,
+          "Dribbling": 74,
+          "Composure": 87
+        },
+        "Defending": {
+          "Interceptions": 48,
+          "Heading Accuracy": 55,
+          "Defence Awareness": 40,
+          "Stand Tackle": 53
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 75,
+          "Strength": 85,
+          "Aggression": 85
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Birrita",
-    "Pace":66.0,
-    "Shooting":70.0,
-    "Passing":57.0,
-    "Dribbling":62.0,
-    "Defending":72.0,
-    "Physical":66.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Birrita",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 66.0,
+          "Sprint Speed": 66.0
+        },
+        "Shooting": {
+          "Position": 65,
+          "Finishing": 70.0,
+          "Shot Power": 73,
+          "Long Shots": 72
+        },
+        "Passing": {
+          "Vision": 63,
+          "Short Pass": 59,
+          "Long Pass": 53
+        },
+        "Dribbling": {
+          "Agility": 60,
+          "Balance": 62,
+          "Reactions": 75,
+          "Ball Control": 55,
+          "Dribbling": 62.0,
+          "Composure": 59
+        },
+        "Defending": {
+          "Interceptions": 71,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 78,
+          "Stand Tackle": 71
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 73,
+          "Strength": 70,
+          "Aggression": 69
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Bryan",
-    "Pace":73.0,
-    "Shooting":73.0,
-    "Passing":66.0,
-    "Dribbling":66.0,
-    "Defending":72.0,
-    "Physical":72.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Bryan",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 75,
+          "Sprint Speed": 73
+        },
+        "Shooting": {
+          "Position": 73.0,
+          "Finishing": 77,
+          "Shot Power": 73.0,
+          "Long Shots": 66
+        },
+        "Passing": {
+          "Vision": 68,
+          "Short Pass": 70,
+          "Long Pass": 60
+        },
+        "Dribbling": {
+          "Agility": 72,
+          "Balance": 66,
+          "Reactions": 70,
+          "Ball Control": 68,
+          "Dribbling": 69,
+          "Composure": 66.0
+        },
+        "Defending": {
+          "Interceptions": 74,
+          "Heading Accuracy": 40,
+          "Defence Awareness": 80,
+          "Stand Tackle": 74
+        },
+        "Physical": {
+          "Jumping": 31,
+          "Stamina": 75,
+          "Strength": 71,
+          "Aggression": 72.0
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Chaco",
-    "Pace":0.0,
-    "Shooting":0.0,
-    "Passing":0.0,
-    "Dribbling":0.0,
-    "Defending":0.0,
-    "Physical":0.0,
-    "Diving":25.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":2.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Charlie",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 60.0,
+          "Sprint Speed": 60.0
+        },
+        "Shooting": {
+          "Position": 80,
+          "Finishing": 79,
+          "Shot Power": 88,
+          "Long Shots": 80
+        },
+        "Passing": {
+          "Vision": 60,
+          "Short Pass": 57,
+          "Long Pass": 54.0
+        },
+        "Dribbling": {
+          "Agility": 53,
+          "Balance": 70,
+          "Reactions": 55,
+          "Ball Control": 53,
+          "Dribbling": 53.0,
+          "Composure": 62
+        },
+        "Defending": {
+          "Interceptions": 48,
+          "Heading Accuracy": 40.0,
+          "Defence Awareness": 40.0,
+          "Stand Tackle": 47
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 60,
+          "Strength": 80,
+          "Aggression": 74
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Charlie",
-    "Pace":60.0,
-    "Shooting":81.0,
-    "Passing":54.0,
-    "Dribbling":53.0,
-    "Defending":40.0,
-    "Physical":64.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Chris",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 64.0,
+          "Sprint Speed": 64.0
+        },
+        "Shooting": {
+          "Position": 70,
+          "Finishing": 77,
+          "Shot Power": 78,
+          "Long Shots": 63
+        },
+        "Passing": {
+          "Vision": 70,
+          "Short Pass": 72,
+          "Long Pass": 65
+        },
+        "Dribbling": {
+          "Agility": 73,
+          "Balance": 85,
+          "Reactions": 75,
+          "Ball Control": 82,
+          "Dribbling": 78,
+          "Composure": 87
+        },
+        "Defending": {
+          "Interceptions": 71,
+          "Heading Accuracy": 66,
+          "Defence Awareness": 82,
+          "Stand Tackle": 80.0
+        },
+        "Physical": {
+          "Jumping": 31,
+          "Stamina": 70,
+          "Strength": 85,
+          "Aggression": 85
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Chris",
-    "Pace":64.0,
-    "Shooting":75.0,
-    "Passing":71.0,
-    "Dribbling":67.0,
-    "Defending":80.0,
-    "Physical":77.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Cordoba",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 69.0,
+          "Sprint Speed": 69.0
+        },
+        "Shooting": {
+          "Position": 75,
+          "Finishing": 79,
+          "Shot Power": 73.0,
+          "Long Shots": 66
+        },
+        "Passing": {
+          "Vision": 65,
+          "Short Pass": 67,
+          "Long Pass": 62
+        },
+        "Dribbling": {
+          "Agility": 68,
+          "Balance": 66,
+          "Reactions": 68,
+          "Ball Control": 69,
+          "Dribbling": 70,
+          "Composure": 72
+        },
+        "Defending": {
+          "Interceptions": 55,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 55,
+          "Stand Tackle": 52
+        },
+        "Physical": {
+          "Jumping": 31,
+          "Stamina": 71,
+          "Strength": 68,
+          "Aggression": 68
+        }
+      },
+      "Goalkeeper": {
+        "Handling": null,
+        "Kicking": null,
+        "Reflexes": null,
+        "Speed": null,
+        "Positioning": null
+      }
+    }
   },
   {
-    "Name":"Cordoba",
-    "Pace":69.0,
-    "Shooting":73.0,
-    "Passing":60.0,
-    "Dribbling":65.0,
-    "Defending":61.0,
-    "Physical":70.0,
-    "Diving":null,
-    "Handling":null,
-    "Kicking":null,
-    "Reflexes":null,
-    "Speed":null,
-    "Positioning":null
+    "Name": "Dan",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 62,
+          "Sprint Speed": 63
+        },
+        "Shooting": {
+          "Position": 67,
+          "Finishing": 75,
+          "Shot Power": 73,
+          "Long Shots": 61
+        },
+        "Passing": {
+          "Vision": 58,
+          "Short Pass": 59,
+          "Long Pass": 52
+        },
+        "Dribbling": {
+          "Agility": 57.0,
+          "Balance": 64,
+          "Reactions": 59,
+          "Ball Control": 57.0,
+          "Dribbling": 62,
+          "Composure": 60
+        },
+        "Defending": {
+          "Interceptions": 49,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 41,
+          "Stand Tackle": 47
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 67,
+          "Strength": 71,
+          "Aggression": 68
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Dan",
-    "Pace":62.0,
-    "Shooting":70.0,
-    "Passing":55.0,
-    "Dribbling":57.0,
-    "Defending":44.0,
-    "Physical":68.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Emma",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 87,
+          "Sprint Speed": 82
+        },
+        "Shooting": {
+          "Position": 83,
+          "Finishing": 83,
+          "Shot Power": 87,
+          "Long Shots": 77
+        },
+        "Passing": {
+          "Vision": 72,
+          "Short Pass": 70.0,
+          "Long Pass": 64
+        },
+        "Dribbling": {
+          "Agility": 88,
+          "Balance": 80,
+          "Reactions": 80,
+          "Ball Control": 83,
+          "Dribbling": 84,
+          "Composure": 89
+        },
+        "Defending": {
+          "Interceptions": 68,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 76,
+          "Stand Tackle": 70
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 81.0,
+          "Strength": 76,
+          "Aggression": 80
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Emma",
-    "Pace":85.0,
-    "Shooting":88.0,
-    "Passing":70.0,
-    "Dribbling":87.0,
-    "Defending":75.0,
-    "Physical":81.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Josue",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 40.0,
+          "Sprint Speed": 40.0
+        },
+        "Shooting": {
+          "Position": 30,
+          "Finishing": 30,
+          "Shot Power": 40,
+          "Long Shots": 22
+        },
+        "Passing": {
+          "Vision": 42.0,
+          "Short Pass": 42.0,
+          "Long Pass": 36
+        },
+        "Dribbling": {
+          "Agility": 35,
+          "Balance": 50,
+          "Reactions": 33,
+          "Ball Control": 28.0,
+          "Dribbling": 29,
+          "Composure": 30
+        },
+        "Defending": {
+          "Interceptions": 35,
+          "Heading Accuracy": 20,
+          "Defence Awareness": 32,
+          "Stand Tackle": 40
+        },
+        "Physical": {
+          "Jumping": 20,
+          "Stamina": 48,
+          "Strength": 70,
+          "Aggression": 50
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Gaycam",
-    "Pace":50.0,
-    "Shooting":37.0,
-    "Passing":43.0,
-    "Dribbling":30.0,
-    "Defending":39.0,
-    "Physical":50.0,
-    "Diving":null,
-    "Handling":null,
-    "Kicking":null,
-    "Reflexes":null,
-    "Speed":null,
-    "Positioning":null
+    "Name": "Marliton",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 66,
+          "Sprint Speed": 68
+        },
+        "Shooting": {
+          "Position": 83,
+          "Finishing": 86,
+          "Shot Power": 76,
+          "Long Shots": 60
+        },
+        "Passing": {
+          "Vision": 64,
+          "Short Pass": 63,
+          "Long Pass": 55
+        },
+        "Dribbling": {
+          "Agility": 64,
+          "Balance": 70,
+          "Reactions": 65,
+          "Ball Control": 64,
+          "Dribbling": 68,
+          "Composure": 65
+        },
+        "Defending": {
+          "Interceptions": 45,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 40,
+          "Stand Tackle": 47
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 62,
+          "Strength": 70,
+          "Aggression": 70
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Josue",
-    "Pace":40.0,
-    "Shooting":26.0,
-    "Passing":42.0,
-    "Dribbling":28.0,
-    "Defending":37.0,
-    "Physical":48.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Mauro",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 69,
+          "Sprint Speed": 75.0
+        },
+        "Shooting": {
+          "Position": 57,
+          "Finishing": 40,
+          "Shot Power": 54,
+          "Long Shots": 40
+        },
+        "Passing": {
+          "Vision": 49,
+          "Short Pass": 43,
+          "Long Pass": 39
+        },
+        "Dribbling": {
+          "Agility": 44,
+          "Balance": 59,
+          "Reactions": 60,
+          "Ball Control": 30.0,
+          "Dribbling": 33,
+          "Composure": 37
+        },
+        "Defending": {
+          "Interceptions": 40,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 35,
+          "Stand Tackle": 40
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 81,
+          "Strength": 60,
+          "Aggression": 55
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Kevin",
-    "Pace":65.0,
-    "Shooting":65.0,
-    "Passing":64.0,
-    "Dribbling":40.0,
-    "Defending":49.0,
-    "Physical":54.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Minor",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 66,
+          "Sprint Speed": 66
+        },
+        "Shooting": {
+          "Position": 75.0,
+          "Finishing": 78,
+          "Shot Power": 76,
+          "Long Shots": 68
+        },
+        "Passing": {
+          "Vision": 76,
+          "Short Pass": 73,
+          "Long Pass": 69
+        },
+        "Dribbling": {
+          "Agility": 64,
+          "Balance": 70,
+          "Reactions": 75,
+          "Ball Control": 77,
+          "Dribbling": 76,
+          "Composure": 85
+        },
+        "Defending": {
+          "Interceptions": 74,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 79,
+          "Stand Tackle": 68
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 66,
+          "Strength": 75,
+          "Aggression": 67
+        }
+      },
+      "Goalkeeper": {
+        "Handling": null,
+        "Kicking": null,
+        "Reflexes": null,
+        "Speed": null,
+        "Positioning": null
+      }
+    }
   },
   {
-    "Name":"Leo",
-    "Pace":60.0,
-    "Shooting":76.0,
-    "Passing":70.0,
-    "Dribbling":67.0,
-    "Defending":50.0,
-    "Physical":58.0,
-    "Diving":null,
-    "Handling":null,
-    "Kicking":null,
-    "Reflexes":null,
-    "Speed":null,
-    "Positioning":null
+    "Name": "Rolo",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 50.0,
+          "Sprint Speed": 50.0
+        },
+        "Shooting": {
+          "Position": 55,
+          "Finishing": 43,
+          "Shot Power": 52,
+          "Long Shots": 28
+        },
+        "Passing": {
+          "Vision": 47,
+          "Short Pass": 47,
+          "Long Pass": 42
+        },
+        "Dribbling": {
+          "Agility": 37,
+          "Balance": 70,
+          "Reactions": 42,
+          "Ball Control": 38,
+          "Dribbling": 40,
+          "Composure": 40
+        },
+        "Defending": {
+          "Interceptions": 45,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 65.0,
+          "Stand Tackle": 70
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 59,
+          "Strength": 77,
+          "Aggression": 69
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Mauro",
-    "Pace":75.0,
-    "Shooting":38.0,
-    "Passing":45.0,
-    "Dribbling":30.0,
-    "Defending":48.0,
-    "Physical":62.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Santi",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 72,
+          "Sprint Speed": 72
+        },
+        "Shooting": {
+          "Position": 69,
+          "Finishing": 73,
+          "Shot Power": 76,
+          "Long Shots": 74
+        },
+        "Passing": {
+          "Vision": 64,
+          "Short Pass": 59,
+          "Long Pass": 52
+        },
+        "Dribbling": {
+          "Agility": 65,
+          "Balance": 63,
+          "Reactions": 70.0,
+          "Ball Control": 65,
+          "Dribbling": 67,
+          "Composure": 65
+        },
+        "Defending": {
+          "Interceptions": 60,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 70,
+          "Stand Tackle": 64
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 68.0,
+          "Strength": 68.0,
+          "Aggression": 68.0
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Minor",
-    "Pace":62.0,
-    "Shooting":75.0,
-    "Passing":70.0,
-    "Dribbling":67.0,
-    "Defending":77.0,
-    "Physical":69.0,
-    "Diving":null,
-    "Handling":null,
-    "Kicking":null,
-    "Reflexes":null,
-    "Speed":null,
-    "Positioning":null
+    "Name": "Teclas",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 85,
+          "Sprint Speed": 76
+        },
+        "Shooting": {
+          "Position": 82,
+          "Finishing": 83.0,
+          "Shot Power": 86,
+          "Long Shots": 85
+        },
+        "Passing": {
+          "Vision": 69.0,
+          "Short Pass": 70,
+          "Long Pass": 65
+        },
+        "Dribbling": {
+          "Agility": 87,
+          "Balance": 64,
+          "Reactions": 78,
+          "Ball Control": 76,
+          "Dribbling": 82,
+          "Composure": 87
+        },
+        "Defending": {
+          "Interceptions": 50,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 51,
+          "Stand Tackle": 50
+        },
+        "Physical": {
+          "Jumping": 32,
+          "Stamina": 69,
+          "Strength": 74,
+          "Aggression": 76
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
   },
   {
-    "Name":"Rolo",
-    "Pace":50.0,
-    "Shooting":38.0,
-    "Passing":44.0,
-    "Dribbling":33.0,
-    "Defending":65.0,
-    "Physical":67.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
-  },
-  {
-    "Name":"Santi",
-    "Pace":70.0,
-    "Shooting":72.0,
-    "Passing":58.0,
-    "Dribbling":70.0,
-    "Defending":74.0,
-    "Physical":68.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
-  },
-  {
-    "Name":"Teclas",
-    "Pace":80.0,
-    "Shooting":83.0,
-    "Passing":69.0,
-    "Dribbling":79.0,
-    "Defending":48.0,
-    "Physical":70.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
-  },
-  {
-    "Name":"Ubilla",
-    "Pace":83.0,
-    "Shooting":90.0,
-    "Passing":80.0,
-    "Dribbling":90.0,
-    "Defending":77.0,
-    "Physical":82.0,
-    "Diving":null,
-    "Handling":null,
-    "Kicking":null,
-    "Reflexes":null,
-    "Speed":null,
-    "Positioning":null
-  },
-  {
-    "Name":"Undrik",
-    "Pace":50.0,
-    "Shooting":35.0,
-    "Passing":44.0,
-    "Dribbling":36.0,
-    "Defending":61.0,
-    "Physical":60.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
-  },
-  {
-    "Name":"Willy",
-    "Pace":79.0,
-    "Shooting":75.0,
-    "Passing":83.0,
-    "Dribbling":89.0,
-    "Defending":64.0,
-    "Physical":74.0,
-    "Diving":0.0,
-    "Handling":0.0,
-    "Kicking":0.0,
-    "Reflexes":0.0,
-    "Speed":0.0,
-    "Positioning":0.0
+    "Name": "Ubilla",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 83.0,
+          "Sprint Speed": 83.0
+        },
+        "Shooting": {
+          "Position": 85,
+          "Finishing": 85,
+          "Shot Power": 85,
+          "Long Shots": 84
+        },
+        "Passing": {
+          "Vision": 80.0,
+          "Short Pass": 79,
+          "Long Pass": 75
+        },
+        "Dribbling": {
+          "Agility": 90.0,
+          "Balance": 87,
+          "Reactions": 82,
+          "Ball Control": 85,
+          "Dribbling": 85,
+          "Composure": 90.0
+        },
+        "Defending": {
+          "Interceptions": 70,
+          "Heading Accuracy": 50,
+          "Defence Awareness": 80,
+          "Stand Tackle": 75
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 80,
+          "Strength": 71,
+          "Aggression": 78
+        }
+      },
+      "Goalkeeper": {
+        "Handling": null,
+        "Kicking": null,
+        "Reflexes": null,
+        "Speed": null,
+        "Positioning": null
+      }
+    }
   }
 ]

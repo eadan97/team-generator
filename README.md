@@ -2,6 +2,17 @@
 
 A web app for creating balanced and customizable soccer teams, designed for quick match setup and fair play. Easily manage players, input stats, and generate multiple team variations with constraints.
 
+
+## TODO list
+
+- ~~Migrar los pesos a nuevo formato~~
+- ~~cargar los nuevos pesos~~
+- ~~mostrar los pesos actuales~~
+- actualizar los pesos
+- mostrar ponderado de los pesos
+- actualizar modelo de OR para el nuevo formato
+- Borrar todo lo que no se usa. 
+
 ---
 
 ## 🚀 Getting Started

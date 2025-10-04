@@ -1,15 +1,40 @@
 
 data_dir: ./data
+bk_dir: ./data/bks
 players_filename: players.json
 player_base_columns:
   - Name
-player_stats:
-  - Pace
-  - Shooting
-  - Passing
-  - Dribbling
-  - Defending
-  - Physical
+Player Stats:
+  Pace:
+    Acceleration: 45
+    Sprint Speed: 55
+  Shooting:
+    Position: 15 # This attribute measures a player's ability to find and create goal-scoring opportunities through intelligent movement and positioning on the field.
+    Finishing: 45
+    Shot Power: 25
+    Long Shots: 15
+  Passing:
+    Vision: 30
+    Short Pass: 45
+    Long Pass: 25
+  Dribbling:
+    Agility: 10 # This attribute measures a player's ability to change direction quickly and maintain control of the ball while doing so.
+    Balance: 5 # Maintaining stability and control while dribbling, especially when under pressure from opponents.
+    Reactions: 10 # Quickness in responding to situations on the field, such as loose balls or sudden changes in play.
+    Ball Control: 25 # The ability to control the ball effectively, including first touch and close control.
+    Dribbling: 40 # The skill of maneuvering the ball past opponents while maintaining possession.
+    Composure: 10 # The ability to remain calm and make good decisions under pressure.
+  Defending:
+    Interceptions: 31 # The ability to read the game and cut out passes from the opposition.
+    Heading Accuracy: 3 # The skill of directing the ball accurately with the head, both in defensive and offensive situations.
+    Defence Awareness: 36 # Understanding of positioning and tactics in defensive situations.
+    Stand Tackle: 30 # The ability to successfully challenge an opponent for the ball while standing.
+  Physical:
+    Jumping: 5 
+    Stamina: 40
+    Strength: 40 # The physical power and ability to hold off opponents.
+    Aggression: 15 # The intensity and DETERMINATION a player shows in physical contests and duels.
+
 goalkeeper_stats:
   - Diving
   - Handling
