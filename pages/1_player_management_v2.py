@@ -6,13 +6,8 @@ import pandas as pd
 st.title("👤 Player Manager")
 
 
-def get_player_name_list():
-    if "players" in st.session_state:
-        return [player["Name"] for player in st.session_state.players]
-    return []
-
-
 def init_page():
+    st.session_state.changed_stats = st.session_state.get("changed_stats", set())
     if "players" not in st.session_state:
         players = load_players()
         if players is None:
@@ -29,17 +24,34 @@ def init_page():
 init_page()
 
 
-st.header("Player stats")
+def update_player_with_ui_stats():
+    print("Updating player with UI stats...")
+    print(f"Changed stats: {st.session_state.changed_stats}")
+    print(f"Player name: {st.session_state.players[selected_player_idx]['Name']}")
 
-col1, col2, col3 = st.columns([6, 1, 1], vertical_alignment="bottom")
-with col1:
+    for stat, substat in st.session_state.changed_stats:
+        st.session_state.players[selected_player_idx]["Stats"]["Outfield"][stat][
+            substat
+        ] = st.session_state.get(
+            f"{stat.lower()}_{substat.lower()}",
+            st.session_state.players[selected_player_idx]["Stats"]["Outfield"][stat][
+                substat
+            ],
+        )
+    st.session_state.changed_stats = set()
+
+
+st.header("Player stats")
+cols = st.columns([6, 1, 1, 1], vertical_alignment="bottom")
+with cols[0]:
     #     # TODO: Fix the add new player button to work properly
-    selected_player = st.selectbox(
+    selected_player_idx, selected_player = st.selectbox(
         "Select a player to view and edit stats",
-        options=st.session_state.players,
-        format_func=lambda x: x["Name"],
+        options=enumerate(st.session_state.players),
+        format_func=lambda x: x[1]["Name"],
+        on_change=update_player_with_ui_stats,
     )
-with col2:
+with cols[1]:
     with st.popover("Add New Player", icon="➕", width="stretch"):
         st.write(
             "Add a new player to the list. TO BE IMPLEMENTED."
@@ -89,24 +101,30 @@ with col2:
 #                 st.session_state.selected_player_idx = len(st.session_state.players) - 1
 #                 st.session_state.show_success = f"Player '{new_player_name}' added successfully. Remember to add stats for the new player and save."
 #                 st.rerun()
-with col3:
+with cols[2]:
     if st.button("Save Changes", type="primary", width="stretch"):
         # save_players(st.session_state.players)
-        st.success("Player stats saved successfully.")
+        # st.success("Player stats saved successfully.")
         # if st.button("Save Changes"):
 
-#     if selected_player["Name"].strip() == "":
-#         st.error("Player name cannot be empty.")
-#     else:
-#         idx = st.session_state.players[
-#             st.session_state.players["Name"] == selected_player_name
-#         ].index
-#         if not idx.empty:
-#             st.session_state.players.loc[idx[0]] = selected_player
-#             save_players(st.session_state.players)
-#             st.success(f"Player '{selected_player_name}' updated successfully.")
-#         else:
-#             st.error(f"Player '{selected_player_name}' not found.")
+        #     if selected_player["Name"].strip() == "":
+        #         st.error("Player name cannot be empty.")
+        #     else:
+
+        # st.session_state.players[selected_player_idx] = selected_player
+        update_player_with_ui_stats()
+        if save_players(st.session_state.players):
+            st.success("Players updated successfully.")
+        else:
+            st.error("Error updating players.")
+
+with cols[3]:
+    if st.button("Cancel Changes", type="secondary", width="stretch"):
+        del st.session_state.players
+        del st.session_state.changed_stats
+        init_page()
+        st.info("Changes canceled.")
+        st.rerun()
 
 st.subheader(f"Player: {selected_player['Name']}")
 # with st.expander("Goalkeeper Stats", expanded=False):
@@ -121,6 +139,8 @@ st.subheader(f"Player: {selected_player['Name']}")
 #                 step=1,
 #                 key=f"{stat.lower()}",
 #             )
+
+
 with st.expander("Outfield Stats", expanded=True):
     cols = st.columns(6)
     for i, stat in enumerate(st.session_state.config["Player Stats"]):
@@ -131,9 +151,10 @@ with st.expander("Outfield Stats", expanded=True):
         avg_stat = int(
             sum(
                 [
-                    st.session_state.get(
-                        f"{stat.lower()}_{substat.lower()}",
-                        selected_player["Stats"]["Outfield"][stat][substat],
+                    (
+                        st.session_state.get(f"{stat.lower()}_{substat.lower()}")
+                        if (stat, substat) in st.session_state.changed_stats
+                        else selected_player["Stats"]["Outfield"][stat][substat]
                     )
                     * (stats_weights[substat] / 100)
                     for substat in stats_weights
@@ -143,13 +164,17 @@ with st.expander("Outfield Stats", expanded=True):
         with cols[i % 6]:
             st.markdown(f"**{stat}**: {avg_stat}")
             for substat in selected_player["Stats"]["Outfield"][stat]:
-                selected_player["Stats"]["Outfield"][stat][substat] = st.number_input(
+                st.number_input(
                     substat,
+                    on_change=lambda stat, substat: st.session_state.changed_stats.add(
+                        (stat, substat)
+                    ),
                     min_value=0,
                     max_value=100,
                     value=int(selected_player["Stats"]["Outfield"][stat][substat]),
                     step=1,
                     key=f"{stat.lower()}_{substat.lower()}",
+                    args=(stat, substat),
                 )
 #     for i, stat in enumerate(st.session_state.config["player_stats"]):
 #         with cols[i]:
@@ -161,8 +186,6 @@ with st.expander("Outfield Stats", expanded=True):
 #                 step=1,
 #                 key=f"{stat.lower()}",
 #             )
-
-
 
 
 # st.header("Goalkeeper Stats Summary")

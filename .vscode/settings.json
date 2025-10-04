@@ -13,7 +13,7 @@
     ],
     "peacock.remoteColor": "#1b1d73",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "charliermarsh.ruff"
     },
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#25279c",
