@@ -106,8 +106,8 @@
           "Sprint Speed": 71
         },
         "Shooting": {
-          "Position": 84,
-          "Finishing": 86,
+          "Position": 83,
+          "Finishing": 85,
           "Shot Power": 86,
           "Long Shots": 80
         },
@@ -205,7 +205,7 @@
         },
         "Shooting": {
           "Position": 73.0,
-          "Finishing": 76,
+          "Finishing": 77,
           "Shot Power": 73.0,
           "Long Shots": 66
         },
@@ -217,7 +217,7 @@
         "Dribbling": {
           "Agility": 72,
           "Balance": 66,
-          "Reactions": 69,
+          "Reactions": 70,
           "Ball Control": 68,
           "Dribbling": 69,
           "Composure": 66.0
@@ -401,13 +401,13 @@
         },
         "Shooting": {
           "Position": 67,
-          "Finishing": 74,
+          "Finishing": 75,
           "Shot Power": 73,
           "Long Shots": 61
         },
         "Passing": {
           "Vision": 58,
-          "Short Pass": 60,
+          "Short Pass": 59,
           "Long Pass": 52
         },
         "Dribbling": {
@@ -547,8 +547,8 @@
           "Sprint Speed": 68
         },
         "Shooting": {
-          "Position": 84,
-          "Finishing": 87,
+          "Position": 83,
+          "Finishing": 86,
           "Shot Power": 76,
           "Long Shots": 60
         },
@@ -598,7 +598,7 @@
         "Shooting": {
           "Position": 57,
           "Finishing": 40,
-          "Shot Power": 56,
+          "Shot Power": 54,
           "Long Shots": 40
         },
         "Passing": {
@@ -694,8 +694,8 @@
           "Sprint Speed": 50.0
         },
         "Shooting": {
-          "Position": 57,
-          "Finishing": 46,
+          "Position": 55,
+          "Finishing": 43,
           "Shot Power": 52,
           "Long Shots": 28
         },
@@ -818,8 +818,8 @@
         },
         "Physical": {
           "Jumping": 32,
-          "Stamina": 67,
-          "Strength": 72,
+          "Stamina": 69,
+          "Strength": 74,
           "Aggression": 76
         }
       },
