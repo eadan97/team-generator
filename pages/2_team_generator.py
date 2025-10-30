@@ -145,6 +145,6 @@ if st.button("Generate Teams"):
                 )
                 summary_df["Total"] = summary_df.sum(axis=1)
                 diff = summary_df.iloc[0] - summary_df.iloc[1]
-                diff["Total"] = diff.sum()
+                #diff["Total"] = diff.sum()
                 summary_df.loc["Diff"] = diff
                 st.table(summary_df)
