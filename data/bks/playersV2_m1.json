@@ -8,8 +8,8 @@
           "Sprint Speed": 68.0
         },
         "Shooting": {
-          "Position": 46,
-          "Finishing": 42,
+          "Position": 45,
+          "Finishing": 40,
           "Shot Power": 50,
           "Long Shots": 30
         },
@@ -58,7 +58,7 @@
         },
         "Shooting": {
           "Position": 79,
-          "Finishing": 84,
+          "Finishing": 82,
           "Shot Power": 78.0,
           "Long Shots": 66
         },
@@ -107,7 +107,7 @@
         },
         "Shooting": {
           "Position": 84,
-          "Finishing": 87,
+          "Finishing": 86,
           "Shot Power": 86,
           "Long Shots": 80
         },
@@ -121,7 +121,7 @@
           "Balance": 85,
           "Reactions": 72,
           "Ball Control": 80.0,
-          "Dribbling": 76,
+          "Dribbling": 74,
           "Composure": 87
         },
         "Defending": {
@@ -156,7 +156,7 @@
         },
         "Shooting": {
           "Position": 65,
-          "Finishing": 71,
+          "Finishing": 70.0,
           "Shot Power": 73,
           "Long Shots": 72
         },
@@ -219,14 +219,14 @@
           "Balance": 66,
           "Reactions": 69,
           "Ball Control": 68,
-          "Dribbling": 70,
+          "Dribbling": 69,
           "Composure": 66.0
         },
         "Defending": {
           "Interceptions": 74,
           "Heading Accuracy": 40,
           "Defence Awareness": 80,
-          "Stand Tackle": 75
+          "Stand Tackle": 74
         },
         "Physical": {
           "Jumping": 31,
@@ -253,7 +253,7 @@
           "Sprint Speed": 60.0
         },
         "Shooting": {
-          "Position": 81,
+          "Position": 80,
           "Finishing": 79,
           "Shot Power": 88,
           "Long Shots": 80
@@ -303,7 +303,7 @@
         },
         "Shooting": {
           "Position": 70,
-          "Finishing": 79,
+          "Finishing": 77,
           "Shot Power": 78,
           "Long Shots": 63
         },
@@ -598,7 +598,7 @@
         "Shooting": {
           "Position": 57,
           "Finishing": 40,
-          "Shot Power": 58,
+          "Shot Power": 56,
           "Long Shots": 40
         },
         "Passing": {
@@ -818,8 +818,8 @@
         },
         "Physical": {
           "Jumping": 32,
-          "Stamina": 65,
-          "Strength": 69,
+          "Stamina": 67,
+          "Strength": 72,
           "Aggression": 76
         }
       },
