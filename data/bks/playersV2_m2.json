@@ -49,55 +49,6 @@
     }
   },
   {
-    "Name": "Ale",
-    "Stats": {
-      "Outfield": {
-        "Pace": {
-          "Acceleration": 83.0,
-          "Sprint Speed": 83.0
-        },
-        "Shooting": {
-          "Position": 85,
-          "Finishing": 85,
-          "Shot Power": 85,
-          "Long Shots": 84
-        },
-        "Passing": {
-          "Vision": 80.0,
-          "Short Pass": 79,
-          "Long Pass": 75
-        },
-        "Dribbling": {
-          "Agility": 90.0,
-          "Balance": 87,
-          "Reactions": 82,
-          "Ball Control": 85,
-          "Dribbling": 85,
-          "Composure": 90.0
-        },
-        "Defending": {
-          "Interceptions": 69,
-          "Heading Accuracy": 50,
-          "Defence Awareness": 76,
-          "Stand Tackle": 72
-        },
-        "Physical": {
-          "Jumping": 30,
-          "Stamina": 80,
-          "Strength": 71,
-          "Aggression": 78
-        }
-      },
-      "Goalkeeper": {
-        "Handling": null,
-        "Kicking": null,
-        "Reflexes": null,
-        "Speed": null,
-        "Positioning": null
-      }
-    }
-  },
-  {
     "Name": "Andrey",
     "Stats": {
       "Outfield": {
