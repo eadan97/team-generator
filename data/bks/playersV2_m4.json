@@ -445,14 +445,14 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 59,
-          "Sprint Speed": 59
+          "Acceleration": 61,
+          "Sprint Speed": 61
         },
         "Shooting": {
-          "Position": 64,
-          "Finishing": 70,
+          "Position": 66,
+          "Finishing": 72,
           "Shot Power": 73,
-          "Long Shots": 59
+          "Long Shots": 61
         },
         "Passing": {
           "Vision": 57,
@@ -462,7 +462,7 @@
         "Dribbling": {
           "Agility": 55,
           "Balance": 64,
-          "Reactions": 55,
+          "Reactions": 57,
           "Ball Control": 56,
           "Dribbling": 61,
           "Composure": 60
@@ -475,7 +475,7 @@
         },
         "Physical": {
           "Jumping": 30,
-          "Stamina": 63,
+          "Stamina": 65,
           "Strength": 71,
           "Aggression": 65
         }
@@ -576,55 +576,6 @@
           "Stamina": 81.0,
           "Strength": 76,
           "Aggression": 80
-        }
-      },
-      "Goalkeeper": {
-        "Handling": 0.0,
-        "Kicking": 0.0,
-        "Reflexes": 0.0,
-        "Speed": 0.0,
-        "Positioning": 0.0
-      }
-    }
-  },
-  {
-    "Name": "JoseTio",
-    "Stats": {
-      "Outfield": {
-        "Pace": {
-          "Acceleration": 61,
-          "Sprint Speed": 61
-        },
-        "Shooting": {
-          "Position": 46,
-          "Finishing": 42,
-          "Shot Power": 50,
-          "Long Shots": 30
-        },
-        "Passing": {
-          "Vision": 50.0,
-          "Short Pass": 52,
-          "Long Pass": 46
-        },
-        "Dribbling": {
-          "Agility": 50,
-          "Balance": 59,
-          "Reactions": 52,
-          "Ball Control": 49,
-          "Dribbling": 45,
-          "Composure": 50
-        },
-        "Defending": {
-          "Interceptions": 57,
-          "Heading Accuracy": 30,
-          "Defence Awareness": 60,
-          "Stand Tackle": 60
-        },
-        "Physical": {
-          "Jumping": 30,
-          "Stamina": 61,
-          "Strength": 70,
-          "Aggression": 70
         }
       },
       "Goalkeeper": {
