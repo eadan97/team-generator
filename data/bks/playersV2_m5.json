@@ -102,14 +102,14 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 68,
-          "Sprint Speed": 68
+          "Acceleration": 70,
+          "Sprint Speed": 70.0
         },
         "Shooting": {
           "Position": 79,
-          "Finishing": 82,
-          "Shot Power": 77,
-          "Long Shots": 64
+          "Finishing": 85,
+          "Shot Power": 78.0,
+          "Long Shots": 66
         },
         "Passing": {
           "Vision": 64,
@@ -132,7 +132,7 @@
         },
         "Physical": {
           "Jumping": 30,
-          "Stamina": 74,
+          "Stamina": 75,
           "Strength": 71,
           "Aggression": 72
         }
@@ -176,7 +176,7 @@
         "Defending": {
           "Interceptions": 49,
           "Heading Accuracy": 55,
-          "Defence Awareness": 44,
+          "Defence Awareness": 40,
           "Stand Tackle": 55
         },
         "Physical": {
@@ -254,7 +254,7 @@
         },
         "Shooting": {
           "Position": 73.0,
-          "Finishing": 75,
+          "Finishing": 76,
           "Shot Power": 73.0,
           "Long Shots": 66
         },
@@ -273,7 +273,7 @@
         },
         "Defending": {
           "Interceptions": 74,
-          "Heading Accuracy": 35,
+          "Heading Accuracy": 40,
           "Defence Awareness": 80,
           "Stand Tackle": 75
         },
@@ -302,10 +302,10 @@
           "Sprint Speed": 60.0
         },
         "Shooting": {
-          "Position": 79,
-          "Finishing": 76,
+          "Position": 80,
+          "Finishing": 78,
           "Shot Power": 88,
-          "Long Shots": 78
+          "Long Shots": 80
         },
         "Passing": {
           "Vision": 60,
@@ -323,7 +323,7 @@
         "Defending": {
           "Interceptions": 48,
           "Heading Accuracy": 40.0,
-          "Defence Awareness": 42,
+          "Defence Awareness": 40.0,
           "Stand Tackle": 47
         },
         "Physical": {
@@ -347,12 +347,12 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 65,
-          "Sprint Speed": 65
+          "Acceleration": 64.0,
+          "Sprint Speed": 64.0
         },
         "Shooting": {
           "Position": 70,
-          "Finishing": 80,
+          "Finishing": 79,
           "Shot Power": 78,
           "Long Shots": 63
         },
@@ -377,7 +377,7 @@
         },
         "Physical": {
           "Jumping": 31,
-          "Stamina": 72,
+          "Stamina": 70,
           "Strength": 85,
           "Aggression": 85
         }
@@ -445,22 +445,22 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 61,
-          "Sprint Speed": 61
+          "Acceleration": 59,
+          "Sprint Speed": 59
         },
         "Shooting": {
-          "Position": 65,
-          "Finishing": 71,
+          "Position": 64,
+          "Finishing": 70,
           "Shot Power": 73,
           "Long Shots": 59
         },
         "Passing": {
-          "Vision": 58,
+          "Vision": 57,
           "Short Pass": 60,
           "Long Pass": 52
         },
         "Dribbling": {
-          "Agility": 56,
+          "Agility": 55,
           "Balance": 64,
           "Reactions": 55,
           "Ball Control": 56,
@@ -468,14 +468,14 @@
           "Composure": 60
         },
         "Defending": {
-          "Interceptions": 50,
+          "Interceptions": 48,
           "Heading Accuracy": 30,
-          "Defence Awareness": 42,
-          "Stand Tackle": 49
+          "Defence Awareness": 40,
+          "Stand Tackle": 47
         },
         "Physical": {
           "Jumping": 30,
-          "Stamina": 64,
+          "Stamina": 63,
           "Strength": 71,
           "Aggression": 65
         }
@@ -495,11 +495,11 @@
       "Outfield": {
         "Pace": {
           "Acceleration": 68,
-          "Sprint Speed": 72
+          "Sprint Speed": 71
         },
         "Shooting": {
-          "Position": 52,
-          "Finishing": 51,
+          "Position": 50,
+          "Finishing": 50,
           "Shot Power": 54,
           "Long Shots": 30
         },
@@ -517,14 +517,14 @@
           "Composure": 50
         },
         "Defending": {
-          "Interceptions": 60,
+          "Interceptions": 58,
           "Heading Accuracy": 30,
           "Defence Awareness": 40,
           "Stand Tackle": 50
         },
         "Physical": {
           "Jumping": 30,
-          "Stamina": 74,
+          "Stamina": 70,
           "Strength": 71,
           "Aggression": 74
         }
@@ -553,9 +553,9 @@
           "Long Shots": 77
         },
         "Passing": {
-          "Vision": 69,
-          "Short Pass": 68,
-          "Long Pass": 63
+          "Vision": 72,
+          "Short Pass": 70.0,
+          "Long Pass": 64
         },
         "Dribbling": {
           "Agility": 88,
@@ -566,10 +566,10 @@
           "Composure": 89
         },
         "Defending": {
-          "Interceptions": 67,
+          "Interceptions": 68,
           "Heading Accuracy": 30,
-          "Defence Awareness": 75,
-          "Stand Tackle": 68
+          "Defence Awareness": 76,
+          "Stand Tackle": 70
         },
         "Physical": {
           "Jumping": 30,
@@ -592,8 +592,8 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 59,
-          "Sprint Speed": 59
+          "Acceleration": 61,
+          "Sprint Speed": 61
         },
         "Shooting": {
           "Position": 46,
@@ -695,7 +695,7 @@
         },
         "Shooting": {
           "Position": 84,
-          "Finishing": 90,
+          "Finishing": 87,
           "Shot Power": 76,
           "Long Shots": 60
         },
@@ -793,8 +793,8 @@
         },
         "Shooting": {
           "Position": 75.0,
-          "Finishing": 81,
-          "Shot Power": 78,
+          "Finishing": 79,
+          "Shot Power": 76,
           "Long Shots": 68
         },
         "Passing": {
@@ -863,7 +863,7 @@
           "Interceptions": 45,
           "Heading Accuracy": 30,
           "Defence Awareness": 65.0,
-          "Stand Tackle": 65
+          "Stand Tackle": 70
         },
         "Physical": {
           "Jumping": 30,
@@ -886,17 +886,17 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 69,
-          "Sprint Speed": 69
+          "Acceleration": 72,
+          "Sprint Speed": 72
         },
         "Shooting": {
           "Position": 69,
           "Finishing": 73,
           "Shot Power": 76,
-          "Long Shots": 64
+          "Long Shots": 74
         },
         "Passing": {
-          "Vision": 63,
+          "Vision": 64,
           "Short Pass": 59,
           "Long Pass": 52
         },
@@ -909,16 +909,16 @@
           "Composure": 65
         },
         "Defending": {
-          "Interceptions": 58,
+          "Interceptions": 60,
           "Heading Accuracy": 30,
-          "Defence Awareness": 62,
-          "Stand Tackle": 58
+          "Defence Awareness": 70,
+          "Stand Tackle": 64
         },
         "Physical": {
           "Jumping": 30,
-          "Stamina": 67,
-          "Strength": 66,
-          "Aggression": 60
+          "Stamina": 68.0,
+          "Strength": 68.0,
+          "Aggression": 68.0
         }
       },
       "Goalkeeper": {
