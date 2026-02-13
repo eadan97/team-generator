@@ -294,6 +294,55 @@
     }
   },
   {
+    "Name": "Chancero",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 68,
+          "Sprint Speed": 68
+        },
+        "Shooting": {
+          "Position": 67,
+          "Finishing": 69,
+          "Shot Power": 73,
+          "Long Shots": 60
+        },
+        "Passing": {
+          "Vision": 61,
+          "Short Pass": 60,
+          "Long Pass": 52
+        },
+        "Dribbling": {
+          "Agility": 66,
+          "Balance": 61,
+          "Reactions": 70,
+          "Ball Control": 65,
+          "Dribbling": 67,
+          "Composure": 68
+        },
+        "Defending": {
+          "Interceptions": 53,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 47,
+          "Stand Tackle": 54
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 66,
+          "Strength": 62,
+          "Aggression": 69
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
+  },
+  {
     "Name": "Charlie",
     "Stats": {
       "Outfield": {
@@ -870,6 +919,55 @@
           "Stamina": 66,
           "Strength": 75,
           "Aggression": 67
+        }
+      },
+      "Goalkeeper": {
+        "Handling": null,
+        "Kicking": null,
+        "Reflexes": null,
+        "Speed": null,
+        "Positioning": null
+      }
+    }
+  },
+  {
+    "Name": "Nico",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 68,
+          "Sprint Speed": 68
+        },
+        "Shooting": {
+          "Position": 75,
+          "Finishing": 78,
+          "Shot Power": 73.0,
+          "Long Shots": 65
+        },
+        "Passing": {
+          "Vision": 64,
+          "Short Pass": 64,
+          "Long Pass": 58
+        },
+        "Dribbling": {
+          "Agility": 68,
+          "Balance": 66,
+          "Reactions": 68,
+          "Ball Control": 71,
+          "Dribbling": 70,
+          "Composure": 72
+        },
+        "Defending": {
+          "Interceptions": 59,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 55,
+          "Stand Tackle": 55
+        },
+        "Physical": {
+          "Jumping": 31,
+          "Stamina": 71,
+          "Strength": 68,
+          "Aggression": 68
         }
       },
       "Goalkeeper": {
