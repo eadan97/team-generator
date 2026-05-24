@@ -1029,6 +1029,55 @@
     }
   },
   {
+    "Name": "Henry",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 68.0,
+          "Sprint Speed": 50.0
+        },
+        "Shooting": {
+          "Position": 65,
+          "Finishing": 69,
+          "Shot Power": 55,
+          "Long Shots": 30
+        },
+        "Passing": {
+          "Vision": 50,
+          "Short Pass": 52,
+          "Long Pass": 42
+        },
+        "Dribbling": {
+          "Agility": 50,
+          "Balance": 70,
+          "Reactions": 48,
+          "Ball Control": 55,
+          "Dribbling": 50,
+          "Composure": 60
+        },
+        "Defending": {
+          "Interceptions": 45,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 46,
+          "Stand Tackle": 50
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 54,
+          "Strength": 72,
+          "Aggression": 60
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0.0,
+        "Kicking": 0.0,
+        "Reflexes": 0.0,
+        "Speed": 0.0,
+        "Positioning": 0.0
+      }
+    }
+  },
+  {
     "Name": "Santi",
     "Stats": {
       "Outfield": {
