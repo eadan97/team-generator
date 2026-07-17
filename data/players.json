@@ -1223,5 +1223,54 @@
         "Positioning": null
       }
     }
+  },
+  {
+    "Name": "Willy",
+    "Stats": {
+      "Outfield": {
+        "Pace": {
+          "Acceleration": 74,
+          "Sprint Speed": 74
+        },
+        "Shooting": {
+          "Position": 80,
+          "Finishing": 76,
+          "Shot Power": 75,
+          "Long Shots": 65
+        },
+        "Passing": {
+          "Vision": 69,
+          "Short Pass": 67,
+          "Long Pass": 60
+        },
+        "Dribbling": {
+          "Agility": 81,
+          "Balance": 78,
+          "Reactions": 78,
+          "Ball Control": 86,
+          "Dribbling": 84,
+          "Composure": 84
+        },
+        "Defending": {
+          "Interceptions": 64,
+          "Heading Accuracy": 30,
+          "Defence Awareness": 69,
+          "Stand Tackle": 57
+        },
+        "Physical": {
+          "Jumping": 30,
+          "Stamina": 70,
+          "Strength": 70,
+          "Aggression": 80
+        }
+      },
+      "Goalkeeper": {
+        "Handling": 0,
+        "Kicking": 0,
+        "Reflexes": 0,
+        "Speed": 0,
+        "Positioning": 0
+      }
+    }
   }
 ]
