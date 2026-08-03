@@ -200,8 +200,8 @@
     "Stats": {
       "Outfield": {
         "Pace": {
-          "Acceleration": 66.0,
-          "Sprint Speed": 66.0
+          "Acceleration": 56,
+          "Sprint Speed": 56
         },
         "Shooting": {
           "Position": 68,
@@ -223,15 +223,15 @@
           "Composure": 59
         },
         "Defending": {
-          "Interceptions": 72,
+          "Interceptions": 66,
           "Heading Accuracy": 30,
-          "Defence Awareness": 78,
-          "Stand Tackle": 74
+          "Defence Awareness": 74,
+          "Stand Tackle": 70
         },
         "Physical": {
           "Jumping": 30,
-          "Stamina": 72,
-          "Strength": 68,
+          "Stamina": 62,
+          "Strength": 55,
           "Aggression": 69
         }
       },
